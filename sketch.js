@@ -57,7 +57,7 @@ function draw() {
   background(180);
   //mostrar puntuación
   text("Puntuación: "+ score, 500,50);
-  //scoring
+  //puntuación
   score = score + Math.round(getFrameRate()/60);
   
   
